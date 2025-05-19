@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NHCE E-Library</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a23;
+        }
+        header {
+            background-color: #000000;
+            color: #dd1515;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #444;
+            color: #ffffff;
+            padding: 0.5em;
+            text-align: center;
+        }
+         nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 0.5em;
+        }
+        section {
+            padding: 2em;
+        }
+        h2 {
+            color: #ffffff;
+        }
+        .book {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .book-item {
+            width: 30%;
+            margin: 1em 0;
+            padding: 1em;
+            background-color:#07e7ef;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .book-item img {
+            max-width: 100%;
+            height: 80px;
+            border-radius: 5px;
+        }
+        form {
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2em;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5em 1em;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: #3926eb;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+<body>
+    <header>
+        <h1><strong>NHCE </strong>E-Library</h1>
+    </header>
+
+    <nav>
+        <a href="https://www.collegedhundo.com/images/blog/1649162156phpSrkD4d.jpeg">Home</a>
+        <a href="#search books">Browse Books</a>
+        <a href="#aboutus">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="login.html"><button>login</button></a>
+    </nav>
+
+    <section>
+        <h2>B.TECH BOOKS:-</h2>
+
+        <div class="book">
+            <div class="book-item d-flex flex-row justify content-end"> 
+                <img src="https://m.media-amazon.com/images/I/71ETsGj0-PL._AC_UF1000,1000_QL80_.jpg"><h3>C++</h3>
+                <p>Author:-Bjarne Stroustrup</p>
+                <a href="https://documents.uow.edu.au/~akheng/WORKSHOP/C++%20Course%20Notes.pdf"><p>Description of the book.</p></a>
+            </div>
+    
+
+            <div class="book-item">
+                <img src="https://www.jblearning.com/images/default-source/product-images/0763766585.jpg?sfvrsn=85bf38e9_2"><h3>JAVA SCRIPT</h3>
+                <p>Author:- John david N</p>
+                <a href="https://www.cs.toronto.edu/~mashiyat/csc309/Lectures/javascript.pdf"><p>Description of the book.</p></a>
+            </div>
+
+            <div class="book-item">
+                <img src="https://www.stxnext.com/hs-fs/hubfs/STX%20Next%202020/blog/images/Python-Programming-for-Beginners-cover.jpg">
+                <h3>PYTHON</h3>
+                <p>Author:- Mark reed</p>
+                <a href="https://www.bu.edu/lernet/artemis/years/2011/slides/python.pdf"><p>Description of the book.</p></a>
+            </div>
+
+            <div class="book-item">
+                <img src="https://m.media-amazon.com/images/I/71bHK-h6HsL._AC_UF1000,1000_QL80_.jpg"><h3>HTML</h3>
+                <p>Author:- Thomas A.powell</p>
+                <a href="https://www.tutorialspoint.com/html/html_tutorial.pdf"><p>Description of the book.</p></a>
+            </div>
+        </div>
+        <h2>MEDICAL BOOKS:-</h2>
+
+        <div class="book">
+            <div class="book-item">
+                <img src="https://qph.cf2.quoracdn.net/main-qimg-d57ab4be22fc7168e79776978f470a06-lq"><h3>FORENSIC</h3>
+                <p>Author:- V V Pillay </p>
+                <a href="https://www.sjsu.edu/people/mary.juno/courses/1066/s8/Intro.pdf"><p>Description of the book.</p></a>
+            </div>
+
+            <div class="book-item">
+                <img src="https://assets.whsmith.co.uk/product-image/large/9781910443392.jpg"><h3>VETERINARY</h3>
+                <p>Author:- Barbara cooper</p>
+                <a href="https://www.vet-ebooks.com/"><p>Description of the book.</p></a>
+            </div>
+
+            <div class="book-item">
+                <img src="https://www.perlego.com/books/RM_Books/ingram_csplus_gexhsuob/9781914961090.jpg"><h3>CARDIOLOGY</h3>
+                <p>Author:- Barry London </p>
+                <a href="https://www.mcgill.ca/anesthesia/files/anesthesia/heart_-_cote_14.pdf"><p>Description of the book.</p></a>
+            </div>
+
+            <div class="book-item">
+                <img src="https://novapublishers.com/wp-content/uploads/2020/12/9781536190427-1.jpg"><h3>DENTISTRY</h3>
+                <p>Author:- Kriti chawla</p>
+                <a href="https://anatomy.gmhost.space/books/Woelfels_Dental_Anatomy_8th_Ed.pdf"><p>Description of the book.</p>
+            </div>
+        </div>
+        <h2>LLB BOOKS:-</h2>
+
+        <div class="book">
+            <div class="book-item">
+                <img src="https://www.clankart.com/user-uploads/advert/Pillai_Criminal_Law_Manual1688622673780.jpg"><h3>CRIMINAL</h3>
+                <p>Author:- PSA Pillai</p>
+                <a href="https://www.ojp.gov/pdffiles1/Digitization/70396NCJRS.pdf"><p>Description of the book.</p></a>
+            </div>
+
+            <div class="book-item">
+                <img src="https://booksdelivery.com/image/cache/catalog/books/margam/2022/margam-Business%20Law-550x550h.jpg">
+                <h3>BUSSINESS LAW</h3>
+                <p>Author:- M.R.Srinivasan</p>
+                <a href="https://www.hzu.edu.in/uploads/2020/10/business-law.pdf"><p>Description of the book.</p></a>
+            </div>
+
+            <div class="book-item">
+                <img src="https://www.altpublications.com/products/smlphotos/simg61e957a7471dd.jpg"><h3>CIVIL RIGHTS</h3>
+                <p>Author:- V.J.Rao</p>
+                <a href="https://www.crmvet.org/info/94_fal_splc-r.pdf"><p>Description of the book.</p></a>
+            </div>
+
+            <div class="book-item">
+                <img src="https://store.lexisnexis.in/image/cache/catalog/9788119403455-400x533.jpg"><h3>TAX</h3>
+                <p>Author:- P.sChaturvedi</p>
+                <a href="https://www.icsi.edu/media/webmodules/TAX_LAWS_june2020.pdf"><p>Description of the book.</p></a>
+            </div>
+        </div>
+        <h2>E-NEWSPAPER:-</h2>
+
+        <div class="book">
+            <div class="book-item">
+                <a href="https://files.magzter.com/resize/magazine/1591660889/1660345281/view/3.jpg"><h3>THE TIMES OF INDIA</h3></a> 
+                <p>Founder:- Thomas Jewell Bennett</p>
+                <p>Description of the Paper.</p>
+            </div>
+
+            <div class="book-item">
+                <a href="https://d2na0fb6srbte6.cloudfront.net/read/imageapi/coverforissue/2611864/newspaper/600"><h3>THE INDIAN EXPRESS</h3></a>
+                <p>Founder:- Ramnath Goenka</p>
+                <p>Description of the Paper.</p>
+            </div>
+
+            <div class="book-item">
+                <a href="https://upload.wikimedia.org/wikipedia/en/3/31/NewsPaperTheHindu.png"><h3>THE HINDU</h3></a>
+                <p>Founder:- G.Subramania Iyer</p>
+                <p>Description of the Paper.</p>
+            </div>
+        <div id="search books">
+        <h2>SEARCH BOOKS:-</h2>
+        <form>
+            <label for="search"><h2>Search:</h2></label>
+            <input type="text" id="search" name="search" placeholder="Enter keywords">
+            <button type="submit">Search</button>
+        </form>
+       
+        <div id="aboutus">
+            <h2>ABOUT US:-</h2>
+            <p style="background-color:Tomato;">
+            The NHCE Library is a resource center for teaching, learning & research. Being the heart of the academic center, it is home for all the 
+            information services. It plays a proactive role in enabling access to information resources of all kind and providing innovative, 
+            responsive and effective services to meet the changing needs of the academic community.
+
+            The major objective of our library is to provide authentic information to the student at any given point of time. The library is spread 
+            over two floors with 605 seating capacity, state of art digital library, ID-Card Center, Video Conference Room, Online class room with 
+            recording facility,Students Discussion Rooms, Faculty Discussion Room, and Books & Stationery shops are available in the Ground Floor
+            and Stack Area, Reference Section, Circulation Counter, OPAC Search, Journals/Magazines and Newspaper Sections are made available at 
+            the Lower Level of the library building.The Library holds a hybrid collection of printed as well as electronic resources which include 
+            books, journals, databases, CDs/DVDs, e-books,e-journals, reports, course materials, previous years question papers,bound volumes, 
+            project reports, case studies, conference proceedings, etc.Currently the library holds over 47894  volumes, 40 print journals, provides
+            access to electronic resources, newspapers and business magazines, and 4259  multimedia resources, and also have institutional
+            membership of VTU Consortium, ISTE, CSI, IETE and IEI.</p>
+        </div>
+        
+        <div id="contact">
+            <h2>CONTACT:-</h2>
+                <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                    <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 
+                    2-2V2a2 2 0 0 0-2-2z"/>
+                    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                  </svg></h2>    
+                <h2>Phone no:-1234567890</h2>
+                <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1
+                    -1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.
+                    741M1 11.105l4.708-2.897L1 5.383z"/>
+                  </svg></h2>
+                <h2>email:-nhcee-lib@gmail.com</h2>
+
+                <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 
+                    .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 
+                    1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                    </svg> </h2>
+                <h2>Tele-no:-123-456-789</h2>
+                <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                    <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 
+                    1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 
+                    5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 
+                    1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5
+                    0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 
+                    0-1H1V9a.5.5 0 0 1 .5-.5M4 15h3v-5H4zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zm3 0h-2v3h2z"/>
+                  </svg></h2>
+                <h2>Address:- new horizon college of engineering,bellandhur,marathalli,bangalore-560103..</h2> </br></br></br></br>
+        </div>
+    </section>
+    <footer>
+        &copy; NHCE E-Library 2024
+    </footer>
+</body>
+</html>
